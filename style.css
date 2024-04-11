@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    font-family: "DM Sans", sans-serif;
+}
+.brand-name{
+    color: #1E0E62 !important;
+}
+.hero-head{
+    width: 800px;
+    font-size: 58px;
+}
+.image-box{
+    width: 60%;
+}
+.startup-text{
+    color: #15143966;
+}
+.signin-button{
+    width: fit-content;
+}
+
+
+@media (max-width: 992px) {
+    .hero-head{
+        width: 100%;
+        font-size: 20px;
+    }
+    .image-box{
+        width: 100%;
+    }
+}
